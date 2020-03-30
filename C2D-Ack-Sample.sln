@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDeviceC2DReceiver", "SimpleDeviceC2DReceiver\SimpleDeviceC2DReceiver.csproj", "{A3B08E8F-720C-4B65-B318-0A4885352869}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceClientApp", "ServiceClientApp\ServiceClientApp.csproj", "{8A0DB73C-F410-4AEB-8A5C-F25EA62CF777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTDeviceTwinReceiverFunction", "IoTDeviceTwinReceiverFunction\IoTDeviceTwinReceiverFunction.csproj", "{60C083F5-7FA4-47D1-9AC5-2A6DBE7CFFAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B08E8F-720C-4B65-B318-0A4885352869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B08E8F-720C-4B65-B318-0A4885352869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B08E8F-720C-4B65-B318-0A4885352869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B08E8F-720C-4B65-B318-0A4885352869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0DB73C-F410-4AEB-8A5C-F25EA62CF777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0DB73C-F410-4AEB-8A5C-F25EA62CF777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0DB73C-F410-4AEB-8A5C-F25EA62CF777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0DB73C-F410-4AEB-8A5C-F25EA62CF777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C083F5-7FA4-47D1-9AC5-2A6DBE7CFFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C083F5-7FA4-47D1-9AC5-2A6DBE7CFFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C083F5-7FA4-47D1-9AC5-2A6DBE7CFFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C083F5-7FA4-47D1-9AC5-2A6DBE7CFFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641F9466-DBB0-4725-92AD-C25246128A27}
+	EndGlobalSection
+EndGlobal
